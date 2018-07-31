@@ -89,7 +89,7 @@ function home()
 }
 function redes ()
 {
-    window.location = "/redes/redes.html";
+    window.location = "/conteudo/redes/redes.html";
 }
 function desafios ()
 {
@@ -97,7 +97,7 @@ function desafios ()
 }
 function deep ()
 {
-    window.location = "/deep web/deep web.html";
+    window.location = "darkarmybrasil.github.io/conteudo/deep web/deep web.html";
 }
 function hacking ()
 {
