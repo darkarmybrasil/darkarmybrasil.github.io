@@ -85,21 +85,21 @@ function pegarValor(valor)
 
 function home()
 {
-    window.location = "../../index.html";
+    window.location = "index.html";
 }
 function redes ()
 {
-    window.location = "../redes/redes.html";
+    window.location = "/redes/redes.html";
 }
 function desafios ()
 {
-    window.location = "../desafios/desafios.html";
+    window.location = "/desafios/desafios.html";
 }
 function deep ()
 {
-    window.location = "../deep web/deep web.html";
+    window.location = "/deep web/deep web.html";
 }
 function hacking ()
 {
-    window.location = "../hacking/hacking.html";
+    window.location = "/hacking/hacking.html";
 }
