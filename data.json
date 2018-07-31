@@ -1,0 +1,27 @@
+[
+    {
+        "links_menu": {
+            "link1": "Deep web",
+            "link2": "Desafios",
+            "link3": "Hacking",
+            "link4": "Redes"
+        },
+        "nome_site": "DarkArmyBR"
+    },
+    {
+        "posts": {
+            "Desafio-playcode-1-layout": {
+                "Data": "30/7/2018",
+                "title": "Desafio playcode: 1 - Layout do site",
+                "categoria": "desafios",
+                "conteudo": "<h3>Sobre os desafios:</h3> <br>Esses desafios foram feitos para alcan\u00e7ar como resultado um Side Project. Um Side Project \u00e9 basicamente um projeto de sistemas por exemplo, que voc\u00ea n\u00e3o \u00e9 obrigado a fazer, voc\u00ea simplesmente faz por dois motivos: 1- Aproveitar o processo de aprendizagem. 2- Ter mais um projeto no GitHub.<br>Esse Side Project foi criado pelo Harlley Oliveira e tem como objetivo mostrar quantos v\u00eddeos j\u00e1 foram postados, quais eles s\u00e3o e quantos faltam para completar a sua meta de 100 v\u00eddeos do canal Playcode.<br><br><h3>Este deve ser o resultado:</h3><br><img src=../imagens/playcode/tarefa-1.png class=img-thumbnail img>"
+            },
+            "user-agent": {
+                "Data": "31/7/2018",
+                "title": "O que é user-agent?",
+                "categoria": "redes",
+                "conteudo": " <p>Um user-agent é um cabeçalho de requisição enviado do cliente (navegador por exemplo) para o servidor( por exemplo web server) tendo como conteúdo algumas informações como: qual o sistema operacional e sua versão que esta a ser usada pelo cliente, IP, qual o tipo de navegador e sua versão . Uma requisição é um pedido, uma solicitação de algo para o servidor, que pode ser uma pagina web, um video ou simplesmente um pacote com alguns bits para ver a rota feita pelos pacotes ou até mesmo a localização física do servidor.</p><h4>O que define quem é cliente e quem é servidor?</h4><p>O que determina isso é o tipo de mensagem HTTP utilizada por cada um. Se request (requisição): cliente, se response (resposta): servidor.</p><img src=../imagens/http/httpstructure.png class=img-thumbnail><ul><h4>O que acontece?</h4><li>Cliente se conecta ao servidor usando o IP e a porta do tal;</li><li>O cliente faz um request via protocolo HTTP;</li><li>O servirdor retorna com o HTTP response o resultado processado com infos, como o tipo de servidor, tipo de arquivo retornado, se a conexão é keep-alive (conexao persistente) e um codigo que informa o estado atual do recurso, aqui estão alguns :<ul><li>200 OK: Recurso encontrado com sucesso;</li><li>301 Moved Permanetly: Redirecionamento para outra URL;</li><li>302 Found: Recurso temporariamente em outra URL (Pagina de Login, login feito redirecionamento para a pagina principal);</li><li>403 Forbidden: Falta privilégios suficientes;</li><li>404 Not Found: o servidor não encontrou o recurso (pagina web por exemplo) buscado;</li><li>500 Internal Server Error: O servidor nao suporta essa funcionalidade), versão do servidor, e o tipo de conteúdo retornado.</li></ul></li></ul><p>Qualquer ferramenta, comando ou script que voce use para fazer uma requisição ao servidor ira com alguma informação e o mínimo que sera enviado será: tipo de aplicação e sua versão. Isso auxilia o http response retornar os arquivos corretos para a sua versão, evitando bugs ou quaisquer outros tipos de coisas indesejadas.</p><br><img src=../imagens/http/http.png class=img-thumbnail img><br><hr>"
+            }
+        }
+    }
+]
