@@ -89,15 +89,15 @@ function home()
 }
 function redes ()
 {
-    window.location = "/conteudo/redes/redes.html";
+    window.location = "../redes/redes.html";
 }
 function desafios ()
 {
-    window.location = "/desafios/desafios.html";
+    window.location = "../desafios/desafios.html";
 }
 function deep ()
 {
-    window.location = "darkarmybrasil.github.io/conteudo/deep web/deep web.html";
+    window.location = "../deep web/deep web.html";
 }
 function hacking ()
 {
