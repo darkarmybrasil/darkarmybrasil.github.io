@@ -85,7 +85,7 @@ function pegarValor(valor)
 
 function home()
 {
-    window.location = "index.html";
+    window.location = "../../index.html";
 }
 function redes ()
 {
