@@ -89,7 +89,7 @@ function home()
 }
 function redes ()
 {
-    window.location = "../redes/redes.html";
+    window.location = "../../index.html";
 }
 function desafios ()
 {
