@@ -63,7 +63,7 @@ objeto.onload = function()
 //             document.getElementById('menu').innerHTML += "<a href='' onclick=deep() >" + menu_links[i].toString() + "</a>";
 //         }
 //     }
- document.getElementById('menu').innerHTML +=    '<li><a href="https://darkarmybrasil.github.io/conteudo/deep web/deep web.html"> Deep web</a></li><li><a href="https://darkarmybrasil.github.io/conteudo/hacking/hacking.html"> Hacking</a></li><li><a href="https://darkarmybrasil.github.io/conteudo/desafios/desafios.html"> Desafios</a></li><li><a href="https://darkarmybrasil.github.io/conteudo/redes/redes.html"> Redes</a></li>';
+ document.getElementById('menu').innerHTML +=    '<li><a href="https://darkarmybrasil.github.io/conteudo/deep web/deep web.html"> Deep web</a></li></li><li><a href="https://darkarmybrasil.github.io/conteudo/desafios/desafios.html"> Desafios</a></li><li><a href="https://darkarmybrasil.github.io/conteudo/hacking/hacking.html"> Hacking</a><li><a href="https://darkarmybrasil.github.io/conteudo/redes/redes.html"> Redes</a></li>';
  document.getElementById('nome').innerHTML = '<a href="https://darkarmybrasil.github.io">' + titulos.toString()+'</a>';
  var nomes = document.getElementsByClassName('nome_site');
     for(var i =0; i < nomes.length; i++)
