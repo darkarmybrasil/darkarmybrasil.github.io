@@ -97,7 +97,7 @@ function desafios ()
 }
 function deep ()
 {
-    window.location = "../deep web/deep web.html";
+    window.location = "https://darkarmybrasil.github.io/conteudo/deep%20web/deep%20web.html";
 }
 function hacking ()
 {
