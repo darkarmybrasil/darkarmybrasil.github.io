@@ -80,21 +80,21 @@ objeto.send(null);
 
 function home()
 {
-    window.location = "../../index.html";
+    window.location = "https://darkarmybrasil.github.io/index.html";
 }
 function redes ()
 {
-    window.location = "../redes/redes.html";
+    window.location = "https://darkarmybrasil.github.io/conteudo/redes/redes.html";
 }
 function desafios ()
 {
-    window.location = "../desafios/desafios.html";
+    window.location = "https://darkarmybrasil.github.io/conteudo/desafios/desafios.html";
 }
 function deep ()
 {
-    window.location = "../deep web/deep web.html";
+    window.location = "https://darkarmybrasil.github.io/conteudo/deep%20web/deep%20web.html";
 }
 function hacking ()
 {
-    window.location = "../hacking/hacking.html";
+    window.location = "https://darkarmybrasil.github.io/conteudo/hacking/hacking.html";
 }
