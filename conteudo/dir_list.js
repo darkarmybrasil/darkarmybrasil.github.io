@@ -89,11 +89,11 @@ function home()
 }
 function redes ()
 {
-    window.location = "../redes/redes.html";
+    window.location = "https://darkarmybrasil.github.io/conteudo/redes/redes.html";
 }
 function desafios ()
 {
-    window.location = "../desafios/desafios.html";
+    window.location = "https://darkarmybrasil.github.io/conteudo/desafios/desafios.html";
 }
 function deep ()
 {
@@ -101,5 +101,5 @@ function deep ()
 }
 function hacking ()
 {
-    window.location = "/hacking/hacking.html";
+    window.location = "https://darkarmybrasil.github.io/conteudo/hacking/hacking.html";
 }
