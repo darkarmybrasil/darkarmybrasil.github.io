@@ -1,5 +1,5 @@
  var objeto = new XMLHttpRequest();
-objeto.open('GET', '../../data.json', false);
+objeto.open('GET', 'view-source:https://darkarmybrasil.github.io/data.json', true);
 
 objeto.onload = function()
 {
