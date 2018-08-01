@@ -35,7 +35,7 @@ function lerURL(string)
 var valor = lerURL('valor');
 
 var objeto = new XMLHttpRequest();
-objeto.open('GET', '../../data.json', true);
+objeto.open('GET', 'https://darkarmybrasil.github.io/data.json', true);
 objeto.onload = function()
 {
     var resposta = JSON.parse(objeto.responseText);
