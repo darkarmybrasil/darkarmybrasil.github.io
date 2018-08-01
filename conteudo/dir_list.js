@@ -85,7 +85,7 @@ function pegarValor(valor)
 
 function home()
 {
-    window.location = "../../index.html";
+    window.location = "https://darkarmybrasil.github.io/index.html";
 }
 function redes ()
 {
