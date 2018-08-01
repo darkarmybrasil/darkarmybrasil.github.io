@@ -80,10 +80,10 @@ objeto.onload = function()
 
 objeto.send(null);
 
-function home()
-{
-    window.location = "https://darkarmybrasil.github.io";
-}
+// function home()
+// {
+//     window.location = "https://darkarmybrasil.github.io";
+// }
 // function redes ()
 // {
 //     window.location = "https://darkarmybrasil.github.io/conteudo/redes/redes.html";
