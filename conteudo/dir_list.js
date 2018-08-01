@@ -9,29 +9,31 @@ objeto.onload = function()
     var titulos = resposta[0]['nome_site'];
     console.log(titulos);
     var items = resposta[1]['posts'];
-    var menu_links = resposta[0]['links_menu'];
-    for(i in menu_links)
-    {
-        if(menu_links[i].toLowerCase() == 'redes')
-        {
-            document.getElementById('menu').innerHTML += '<a href="" onclick=redes() >' + menu_links[i].toString() + '</a>';
-        }
-        if(menu_links[i].toLowerCase() == 'desafios')
-        {
-            document.getElementById('menu').innerHTML += "<a href='' onclick=desafios() >" + menu_links[i].toString() + "</a>";
-        }
+//     var menu_links = resposta[0]['links_menu'];
+//     for(i in menu_links)
+//     {
+//         if(menu_links[i].toLowerCase() == 'redes')
+//         {
+//             document.getElementById('menu').innerHTML += '<a href="" onclick=redes() >' + menu_links[i].toString() + '</a>';
+//         }
+//         if(menu_links[i].toLowerCase() == 'desafios')
+//         {
+//             document.getElementById('menu').innerHTML += "<a href='' onclick=desafios() >" + menu_links[i].toString() + "</a>";
+//         }
         
-        if(menu_links[i].toLowerCase() == 'deep web')
-        {
-            document.getElementById('menu').innerHTML += "<a href='' onclick=deep() >" + menu_links[i].toString() + "</a>";
-        }
+//         if(menu_links[i].toLowerCase() == 'deep web')
+//         {
+//             document.getElementById('menu').innerHTML += "<a href='' onclick=deep() >" + menu_links[i].toString() + "</a>";
+//         }
 
-        if(menu_links[i].toLowerCase() == 'hacking')
-        {
-            document.getElementById('menu').innerHTML += "<a href='' onclick=hacking() >" + menu_links[i].toString() + "</a>";
-        }
-       //document.getElementById('menu').innerHTML += "<a href=" + menu_links[i].toString().toLowerCase() + ".html>" + menu_links[i].toString() + "</a>";
-    }    
+//         if(menu_links[i].toLowerCase() == 'hacking')
+//         {
+//             document.getElementById('menu').innerHTML += "<a href='' onclick=hacking() >" + menu_links[i].toString() + "</a>";
+//         }
+//        //document.getElementById('menu').innerHTML += "<a href=" + menu_links[i].toString().toLowerCase() + ".html>" + menu_links[i].toString() + "</a>";
+//     }    
+ document.getElementById('menu').innerHTML +=    '<li><a href="https://darkarmybrasil.github.io/conteudo/deep web/deep web.html"> Deep web</a></li><li><a href="https://darkarmybrasil.github.io/conteudo/hacking/hacking.html"> Hacking</a></li><li><a href="https://darkarmybrasil.github.io/conteudo/desafios/desafios.html"> Desafios</a></li><li><a href="https://darkarmybrasil.github.io/conteudo/redes/redes.html"> Redes</a></li>';
+
     
     //LENDO A URL PARA PEGAR O NOME DA CATEGORIA ATUAL
     var link = /\w+.html/;
@@ -83,23 +85,23 @@ function pegarValor(valor)
  
 }
 
-function home()
-{
-    window.location = "https://darkarmybrasil.github.io/index.html";
-}
-function redes ()
-{
-    window.location = "https://darkarmybrasil.github.io/conteudo/redes/redes.html";
-}
-function desafios ()
-{
-    window.location = "https://darkarmybrasil.github.io/conteudo/desafios/desafios.html";
-}
-function deep ()
-{
-    window.location = "https://darkarmybrasil.github.io/conteudo/deep%20web/deep%20web.html";
-}
-function hacking ()
-{
-    window.location = "https://darkarmybrasil.github.io/conteudo/hacking/hacking.html";
-}
+// function home()
+// {
+//     window.location = "https://darkarmybrasil.github.io/index.html";
+// }
+// function redes ()
+// {
+//     window.location = "https://darkarmybrasil.github.io/conteudo/redes/redes.html";
+// }
+// function desafios ()
+// {
+//     window.location = "https://darkarmybrasil.github.io/conteudo/desafios/desafios.html";
+// }
+// function deep ()
+// {
+//     window.location = "https://darkarmybrasil.github.io/conteudo/deep%20web/deep%20web.html";
+// }
+// function hacking ()
+// {
+//     window.location = "https://darkarmybrasil.github.io/conteudo/hacking/hacking.html";
+// }
