@@ -32,8 +32,8 @@ objeto.onload = function()
 //         }
 //        //document.getElementById('menu').innerHTML += "<a href=" + menu_links[i].toString().toLowerCase() + ".html>" + menu_links[i].toString() + "</a>";
 //     }    
- document.getElementById('menu').innerHTML +=    '<li><a href="https://darkarmybrasil.github.io/conteudo/deep web/deep web.html"> Deep web</a></li><li><a href="https://darkarmybrasil.github.io/conteudo/hacking/hacking.html"> Hacking</a></li><li><a href="https://darkarmybrasil.github.io/conteudo/desafios/desafios.html"> Desafios</a></li><li><a href="https://darkarmybrasil.github.io/conteudo/redes/redes.html"> Redes</a></li>';
-
+document.getElementById('menu').innerHTML +=    '<li><a href="https://darkarmybrasil.github.io/conteudo/deep web/deep web.html"> Deep web</a></li><li><a href="https://darkarmybrasil.github.io/conteudo/hacking/hacking.html"> Hacking</a></li><li><a href="https://darkarmybrasil.github.io/conteudo/desafios/desafios.html"> Desafios</a></li><li><a href="https://darkarmybrasil.github.io/conteudo/redes/redes.html"> Redes</a></li>';
+document.getElement
     
     //LENDO A URL PARA PEGAR O NOME DA CATEGORIA ATUAL
     var link = /\w+.html/;
@@ -85,10 +85,10 @@ function pegarValor(valor)
  
 }
 
-// function home()
-// {
-//     window.location = "https://darkarmybrasil.github.io/index.html";
-// }
+ function home()
+{
+    window.location = "https://darkarmybrasil.github.io";
+}
 // function redes ()
 // {
 //     window.location = "https://darkarmybrasil.github.io/conteudo/redes/redes.html";
