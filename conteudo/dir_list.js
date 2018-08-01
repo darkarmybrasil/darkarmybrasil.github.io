@@ -1,5 +1,5 @@
  var objeto = new XMLHttpRequest();
-objeto.open('GET', '../../data.json', true);
+objeto.open('GET', '../../data.json', false);
 
 objeto.onload = function()
 {
